@@ -1,0 +1,44 @@
+{
+  "name": "commit-context",
+  "version": "0.1.0",
+  "description": "adds context in commit messages based in the branch name",
+  "main": "./bin/index.js",
+  "bin": {
+    "commit-context": "bin/index.js"
+  },
+  "scripts": {
+    "dev": "node bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raelbr/commit-context.git"
+  },
+  "public": true,
+  "keywords": [
+    "debug",
+    "debugging",
+    "console.log",
+    "lint",
+    "husky",
+    "commit",
+    "git"
+  ],
+  "author": {
+    "name": "Rael Benassato Riolino",
+    "url": "https://github.com/raelbr"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raelbr/commit-context/issues"
+  },
+  "homepage": "https://github.com/raelbr/commit-context#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "esm": "^3.2.25",
+    "execa": "^5.0.0"
+  },
+  "devDependencies": {
+    "enzyme": "^3.11.0",
+    "jest": "^26.6.3"
+  }
+}
