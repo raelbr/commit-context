@@ -1,6 +1,6 @@
 {
   "name": "commit-context",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "adds context in commit messages based in the branch name",
   "main": "./bin/index.js",
   "bin": {
@@ -32,6 +32,7 @@
     "url": "https://github.com/raelbr/commit-context/issues"
   },
   "homepage": "https://github.com/raelbr/commit-context#readme",
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "find-package-json": "^1.2.0"
+  }
 }
