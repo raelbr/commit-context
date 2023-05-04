@@ -15,13 +15,11 @@
   },
   "public": true,
   "keywords": [
-    "debug",
-    "debugging",
-    "console.log",
-    "lint",
     "husky",
     "commit",
-    "git"
+    "git",
+    "message",
+    "conventional-commits"
   ],
   "author": {
     "name": "Rael Benassato Riolino",
